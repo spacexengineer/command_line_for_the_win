@@ -1,0 +1,9 @@
+echo hello world
+pwd
+ls
+cat access.log
+tail -5 access.log
+grep -r "GET" "access.log"
+ls | grep -lR "500"
+ls | grep -a "access.log"
+grep -rh "500" var

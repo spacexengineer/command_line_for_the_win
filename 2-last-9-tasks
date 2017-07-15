@@ -1,0 +1,11 @@
+# Complete the 9 next tasks, getting to 27 total
+# img link: http://imgur.com/tO2Od3a
+cat sum-me.txt | paste -s -d+ | bc
+basename -a `find -type f`
+rename 's/\..*$//' **
+ls | tr " " "."
+ls -R | grep ^[0-9] | grep -v dir
+sed -n "25p" faces.txt
+tac README
+awk '!i[$0]++' faces.txt
+column -ts, table.csv
